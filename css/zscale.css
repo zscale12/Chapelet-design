@@ -331,3 +331,13 @@ label {
   100% { opacity: 1; }
 }
 
+.navbar {
+    box-shadow: 20px 12px 12px 12px rgba(0, 0, 0, .2);
+}
+
+.nav-item{
+    padding-left: 20px;
+    padding-right: 30px;
+    
+}
+
