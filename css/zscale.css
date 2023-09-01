@@ -333,6 +333,7 @@ label {
 
 .navbar {
     box-shadow: 20px 12px 12px 12px rgba(0, 0, 0, .2);
+    align-items:  center;
 }
 
 .nav-item{
