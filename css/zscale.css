@@ -1,3 +1,6 @@
+
+
+
 @import "compass/css3";
 
 /*
@@ -629,6 +632,8 @@ label {
   100% { opacity: 1; }
 }
 
+/* -- pimp my nav ---------------------------------- */
+
 .navbar {
     box-shadow: 20px 0px 12px 0px rgba(0, 0, 0, .2);
     align-items:  center;
@@ -640,3 +645,9 @@ label {
     
 }
 
+.collapse {
+    visibility:inherit;}
+    
+
+
+.navbar-toggler{ margin: 15px;}
