@@ -831,4 +831,9 @@ a {
   transition: all 0.2s;
 }
 
-.hcf-isotope-item {}
+.hcf-isotope-item {
+  
+  @media (min-width: 400px) {
+  margin-bottom: 10px;
+  min-height: auto;
+}}
