@@ -639,6 +639,7 @@ label {
     align-items:  center;
     padding-bottom: 50px;
     position:sticky;
+    justify-content: center;
     
 }
 
