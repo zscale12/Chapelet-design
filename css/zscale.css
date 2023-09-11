@@ -638,6 +638,8 @@ label {
    
     align-items:  center;
     padding-bottom: 50px;
+    position:sticky;
+    
 }
 
 .navbar a{
@@ -652,12 +654,14 @@ label {
 
 .collapse {
     visibility:visible;
+    
 }
     
 
 
 .navbar-toggler{
     margin: 15px;
+    
 }
 
 
