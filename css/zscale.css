@@ -816,7 +816,7 @@ a {
   align-items: flex-start;
 }
 
-.spinner-wrapper{
+.spinner-wrapper {
   background-color: #000;
   position: fixed;
   top:0px;
