@@ -736,19 +736,14 @@ comme secrétaire.</p>
                 <script>
   AOS.init();
 </script>
-        <script type="text/javascript">
+        <script >
   
-// init Masonry
- var $grid = $('.grid').masonry({
-   itemSelector: '.grid-item',
-   percentPosition: true,
-   columnWidth: '.grid-sizer'
- });
 
- // layout Masonry after each image loads
- $grid.imagesLoaded().progress( function() {
-   $grid.masonry();
- });
+
+ Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
+	var msnry = new Masonry('.grid');
+	msnry.layout();
+});
 </script>
 <script>
         $(document).ready(function() {

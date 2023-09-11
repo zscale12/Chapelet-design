@@ -743,7 +743,7 @@ a {
   @media (min-width: 640px) {
     margin-left: 20px;
   }
-  
+}
   &::before {
     content: '';
     display: inline-block;
@@ -831,4 +831,4 @@ a {
   transition: all 0.2s;
 }
 
-.hcf-isotope-item {min-height: 200px;}
+.hcf-isotope-item {}
