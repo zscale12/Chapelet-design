@@ -831,6 +831,4 @@ a {
   transition: all 0.2s;
 }
 
-.img-fluid {
-  min-height: 200px;
-}
+.hcf-isotope-item {min-height: 200px;}
