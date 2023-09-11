@@ -111,7 +111,7 @@
         
  
 	</head>
-	<body class="bg-dark">
+	<body class="bg-dark" onload="myFunction()" style="margin:0;">
         
         
         
@@ -222,10 +222,10 @@
                  
                    
                  <br><br>
-                 <div class="row">
+                 <div class="row ">
                         
                      <div class="col-lg-3 " data-aos="fade-up" data-aos-duration="1000">
-                      <center> <img src="img/cv%203.jpg" class="img-fluid rounded"></center></div>
+                      <center> <img src="img/cv%203.jpg" class="img-fluid rounded" style="max-width: 250px;"></center></div>
                       <div class="col-lg-9 cv1 bs-warning rounded " data-aos="fade-up" data-aos-duration="1000">
                           <h3 data-aos="fade-up" data-aos-duration="1500">Pierre Chapelet-Letourneux </h3>
                          <p> Né(e) le 25-05-1979<br>
@@ -768,7 +768,22 @@ comme secrétaire.</p>
     $(this).slideToggle(300, "linear");
   });
 });
-        </script>   
+        </script> 
+    <!-- loader -->
+    
+    <script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
         
 	</body>
 </html>
