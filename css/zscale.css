@@ -662,8 +662,13 @@ label {
 
 .navbar-toggler{
     margin: 15px;
+   @media (min-width: 640px) {
+
     
+  }  
 }
+
+ 
 
 
 nav {
@@ -720,6 +725,8 @@ a {
   @media (min-width: 640px) {
     display: flex;
   }
+    
+}
   li {
     margin-left: 20px;
   }
@@ -803,6 +810,10 @@ a {
 }
 
 
-.logo {max-width:150px; }
+.logo {max-width:70px; }
+
+.navhead {
+  align-items: flex-start;
+}
 
 
