@@ -133,24 +133,24 @@
   </div>
 </div>
         
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top mask" style="position: sticky;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top mask sticky" >
             
-            <div class="col-lg-5" id="navbarNav">
+            <div class="col-lg-5 " id="navbarNav">
 
 		<div class="row">
                         
-                     <div class="col-lg-2 fade-in">
+                     <span class="col-lg-2 fade-in">
 			
-                         <img src="img/logo.webp" class="img-fluid " style="max-width: 70px; margin-top: 20px; margin-bottom:20px ;"></div>
-      <div class="col-lg-9 fade-in">
-          <h2 data-aos="fade-up" data-aos-duration="500"><a class="nav-link" href="#">Motion designer / 3D Generalist <span class="sr-only">(current)</span></a></h2> <span data-aos="fade-up" data-aos-duration="800">Travaux personnels et professionnels</span>
+                         <img src="img/logo.webp" class="img-fluid logo " style="max-width: 70px; margin-top: 20px; margin-bottom:20px ;"></span>
+      <span class="col-lg-9 fade-in">
+          <h3 data-aos="fade-up" data-aos-duration="500"><a class="nav-link" href="#">Motion designer / 3D Generalist <span class="sr-only">(current)</span></a></h3> <span data-aos="fade-up" data-aos-duration="800">Travaux personnels et professionnels</span>
                    
-            </div>
+            </span>
 	    </div>
                 
             </div>   
             
-		 <div class="col-lg-5 container-fluid " style="margin-left: 20px;" id="navbarNav"> 
+		 <div class="col-lg-6 container-fluid " style="margin-left: 20px;" id="navbarNav"> 
              
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -185,8 +185,7 @@
             
 </nav>
         
-        
-      
+ 
         
         
 			
@@ -756,6 +755,17 @@ comme secrétaire.</p>
    $grid.masonry();
  });
 </script>
-
+<script>
+        $(document).ready(function() {
+  $('#navbarDropdown').mouseenter(function() {
+    $('.dropdown-menu').slideToggle(300, "linear");
+  });
+  
+  $('.dropdown-menu').mouseleave(function() {
+    $(this).slideToggle(300, "linear");
+  });
+});
+        </script>   
+        
 	</body>
 </html>
