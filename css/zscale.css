@@ -1,6 +1,7 @@
 
 
 
+
 @import "compass/css3";
 
 /*
@@ -743,7 +744,7 @@ a {
   @media (min-width: 640px) {
     margin-left: 20px;
   }
-}
+  
   &::before {
     content: '';
     display: inline-block;
@@ -811,11 +812,15 @@ a {
 }
 
 
-.logo {max-width:70px; }
+.logo {max-width:70px; 
+margin-right: 10px;
+}
 
 .navhead {
   align-items: flex-start;
 }
+
+
 
 .spinner-wrapper {
   background-color: #000;
