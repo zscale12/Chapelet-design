@@ -347,6 +347,8 @@ body{
 
 .navbar{position: sticky;}
 
+.social {width: 30px;}
+
 
 .font-light{color: #fff;}
 
@@ -842,3 +844,5 @@ margin-right: 10px;
   margin-bottom: 10px;
   min-height: auto;
 }}
+
+
