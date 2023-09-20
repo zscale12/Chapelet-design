@@ -587,7 +587,36 @@ background-attachment: fixed;}
       }
    }
 }
+/* -- pimp my filter ---------------------------------- */
+.filter-button
+{
+    font-size: 12px;
+    border: 1px solid #ab975d;
+    border-radius: 5px;
+    text-align: center;
+    color: #ab975d;
+    margin-bottom: 30px;
+     background-color: #262523;
 
+}
+.filter-button:hover
+{
+    font-size: 12px;
+    border: 1px solid #ab975d;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ab975d;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #ab975d;
+    color: #ab975d;
+}
+
+.gallery_product
+{}
 
 /* -- Input styles ---------------------------------- */
 .form-group {
