@@ -727,4 +727,18 @@ margin-right: 10px;
   min-height: auto;
 }}
 
+/* ---- isotope ---- */
 
+.grid {
+  
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.element-item {
+  
+}
