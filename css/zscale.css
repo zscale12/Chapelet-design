@@ -7,12 +7,12 @@
 
 
 body{
-  background-color: #131313
+  background-color: #001e1e
 }
 
 
 
-//*
+/*
 .wrap {
   position: relative;
   height: 100vh;
@@ -55,11 +55,11 @@ body{
   width: 100vw;
   height: 60vw;
 }
-}*//
+}*/
 
 .navbar{position: sticky;}
 
-.social{ width: 30px;}
+.social{ width: 30 px;}
 
 
 .font-light{color: #fff;}
@@ -121,16 +121,20 @@ body{
   max-width: 100%;
 }
     
-    h1 h2 h3 h4 h5 h6 {
-        color:#fff;
+    h1 {
+        color:#c1eeee;
     }
     
-.cv1 {background-color:#ab975d;
-    color:#000;
+    h2 h3 h4 h5 h6 {
+        color:#a3f8eb;
+    }
+    
+.cv1 {background-color: #eeb541;
+    color:#002425;
  }
 
 
-.cv2 {border-left: dashed 1px #ab975d;
+.cv2 {border-left: dashed 1px #eeb541;
 margin-top: 20px;
 }
 
