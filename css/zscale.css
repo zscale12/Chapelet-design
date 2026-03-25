@@ -129,12 +129,12 @@ body{
         color:#a3f8eb;
     }
     
-.cv1 {background-color: #eeb541;
-    color:#002425;
+.cv1 {background-color: #FFA45B;
+    color:#101418;
  }
 
 
-.cv2 {border-left: dashed 1px #eeb541;
+.cv2 {border-left: dashed 1px #FFA45B;
 margin-top: 20px;
 }
 
@@ -295,10 +295,10 @@ background-attachment: fixed;}
 .filter-button
 {
     font-size: 12px;
-    border: 1px solid #ab975d;
+    border: 1px solid #FFE6AB;
     border-radius: 5px;
     text-align: center;
-    color: #ab975d;
+    color: #FFE6AB;
     margin-bottom: 30px;
      background-color: #262523;
 
@@ -306,17 +306,17 @@ background-attachment: fixed;}
 .filter-button:hover
 {
     font-size: 12px;
-    border: 1px solid #ab975d;
+    border: 1px solid #FFE6AB;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
-    background-color: #ab975d;
+    background-color: #FFE6AB;
 
 }
 .btn-default:active .filter-button:active
 {
-    background-color: #ab975d;
-    color: #ab975d;
+    background-color: #FFE6AB;
+    color: #FFE6AB;
 }
 
 .gallery_product
@@ -536,7 +536,7 @@ a {
 	-webkit-transform: translateY(0px);
 	transform: translateY(0px);
 	bottom: 0px;
-	background: #ab975d;
+	background: #4D8175;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
