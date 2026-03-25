@@ -57,6 +57,9 @@ body{
 }
 }*/
 
+.bg-dark { background-color: #101418;
+}
+
 .navbar{position: sticky;}
 
 .social{ width: 30 px;}
@@ -123,6 +126,7 @@ body{
     
     h1 {
         color:#c1eeee;
+        font-family: Space+Grotesk;
     }
     
     h2 h3 h4 h5 h6 {
