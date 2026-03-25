@@ -7,7 +7,7 @@
 
 
 body{
-  background-color: #001e1e
+  background-color: #101418;
 }
 
 
@@ -65,7 +65,7 @@ body{
 .social{ width: 30 px;}
 
 
-.font-light{color: #fff;}
+.font-light{color: #4d8175;}
 
 
 * { box-sizing: border-box; }
@@ -455,7 +455,7 @@ nav.is-hidden {
   transform: translateY(-100%);
 }
 a {
-  color: inherit;
+  color: #4D8175;
   text-decoration: none;
   &:hover,
   &:focus {
@@ -544,7 +544,7 @@ a {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-    color: #ffffff;
+    color: #101418;
     text-decoration: none;
     background-color:#ab975d;
 }
